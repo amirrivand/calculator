@@ -123,9 +123,12 @@ button {
     background-color: #f0f0f0;
 }
 @media (max-width: 768px) {
+    html, body {
+        height: 100%;
+    }
     .calculator-container {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         grid-template-rows: auto 25vw 25vw 25vw 25vw 25vw;
     }
 }
